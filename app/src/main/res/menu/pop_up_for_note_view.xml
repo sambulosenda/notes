@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_details"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/details_option"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_share"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/share_option"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_edit_note"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/edit_option"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_delete_note"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/delete_option"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_edit_reminder"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/edit_reminder_option"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_set_reminder"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/set_reminder_option"
+        android:visible="true"/>
+</menu>

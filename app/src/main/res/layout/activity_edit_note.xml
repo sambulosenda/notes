@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/main_style"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        style="@style/top_view"
+        android:text="@string/edit_note" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/note_title"
+            android:textColor="#5c1111"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_note_title"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <com.example.mohamed.mynotes.commons.ui.LinedEditText
+        android:id="@+id/edit_note_body"
+        style="@style/lined_edit_text" />
+
+    <LinearLayout
+        style="@style/bottom_linear">
+
+        <Button
+            style="@style/button"
+            android:id="@+id/edit_cancel_button"
+            android:layout_width="190dp"
+            android:text="@string/cancel" />
+
+        <View
+            style="@style/V_line" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/edit_save_button"
+            android:layout_width="190dp"
+            android:paddingRight="20dp"
+            android:text="@string/save" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

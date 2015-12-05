@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/main_style"
+    android:background="#f6edf1"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        style="@style/top_view"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/alarm_note_title"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:text="ALARM"
+            android:textColor="#ecc1d4"
+            android:textSize="35dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_alarmss_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="432dp"
+        android:layout_margin="20dp"></ListView>
+
+    <LinearLayout
+        style="@style/bottom_linear"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/stopAlarm"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:text="@string/stop_alarm" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="240dp"
+    android:background="#ecc1d4"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_marginBottom="30dp">
+
+
+    <TextView
+        android:id="@+id/single_note_view_title"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="#5c1111"
+        android:textSize="20dp"/>
+
+    <View
+        style="@style/H_line" />
+
+    <com.example.mohamed.mynotes.commons.ui.LinedTextView
+        android:id="@+id/single_note_view_body"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#f6edf1"></LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6edf1"
+    tools:context="com.example.mohamed.mynotes.activities.ListNotesActivity">
+
+    <LinearLayout
+        style="@style/bottom_linear">
+
+        <Button
+            style="@style/button"
+            android:layout_width="190dp"
+            android:text="@string/notes_part" />
+
+        <View
+            android:layout_height="match_parent"
+            android:gravity="top"
+            style="@style/V_line" />
+
+        <Button
+            style="@style/button"
+            android:background="#ecc1d4"
+            android:textColor="#5c1111"
+            android:id="@+id/list_reminder_button"
+            android:layout_width="190dp"
+            android:paddingRight="20dp"
+            android:text="@string/reminder_part" />
+
+    </LinearLayout>
+
+    <GridView
+        android:paddingLeft="44dp"
+        android:id="@+id/list_notes_grid_view"
+        android:numColumns="auto_fit"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"></GridView>
+
+    <LinearLayout
+        style="@style/bottom_linear"
+        android:gravity="center">
+
+        <Button
+            style="@style/button"
+            android:id="@+id/Create_new_note1"
+            android:layout_width="match_parent"
+            android:text="@string/create_note"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

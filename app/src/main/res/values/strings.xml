@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_edit_note">EditNote</string>
+    <string name="title_activity_view_note">ViewNote</string>
+    <string name="done">done</string>
+
+    <!-- new note layout -->
+    <string name="new_note">new note</string>
+    <string name="note_title">note title: </string>
+    <string name="save">save</string>
+    <string name="reminder">save &amp; remind me</string>
+    <string name="cancel">cancel</string>
+
+    <!-- new note activity -->
+    <string name="empty_title">please insert the note title</string>
+    <string name="empty_body">the note is empty !</string>
+    <string name="reminder_set">reminder set</string>
+
+    <!-- edit note layout -->
+    <string name="edit_note">edit</string>
+
+    <!-- view note layout -->
+    <string name="back">back</string>
+
+    <!-- alarm layout -->
+    <string name="stop_alarm">check reminders</string>
+
+    <!-- list notes -->
+    <string name="notes_part">notes</string>
+    <string name="reminder_part">reminders</string>
+    <string name="title_activity_list_reminders">ListReminders</string>
+    <string name="create_note">Create New Note</string>
+
+    <!-- menu -->
+    <string name="details_option">details</string>
+    <string name="edit_option">edit note</string>
+    <string name="edit_reminder_option">edit reminder</string>
+    <string name="set_reminder_option">set reminder</string>
+    <string name="share_option">share</string>
+    <string name="delete_option">delete</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+</resources>

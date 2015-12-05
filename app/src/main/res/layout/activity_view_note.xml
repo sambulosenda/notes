@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_note_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/main_style"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        style="@style/top_view"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/view_note_title"
+            android:layout_height="match_parent"
+            android:layout_width="300dp"
+            android:paddingLeft="15dp"
+            android:gravity="center|left"
+            android:textColor="#ecc1d4"
+            android:textSize="35dp"
+            android:textStyle="italic"
+            android:layout_marginRight="15dp"/>
+
+        <ImageButton
+            android:id="@+id/options_button"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#5c1111"
+            android:src="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"/>
+
+    </LinearLayout>
+
+    <com.example.mohamed.mynotes.commons.ui.LinedTextView
+        android:id="@+id/view_note_body"
+        style="@style/lined_edit_text"
+        android:layout_height="410dp"
+        android:scrollbars = "vertical"/>
+
+    <LinearLayout
+        style="@style/bottom_linear"
+        android:gravity="center">
+
+        <Button
+            style="@style/button"
+            android:id="@+id/view_back_button"
+            android:layout_width="match_parent"
+            android:text="@string/back"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
